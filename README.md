@@ -29,7 +29,8 @@ Here we have used packages like  "Pandas" , "Numpy" , "matplotlib" ,"seaborn"
 
 # importing libraries 
  
-import numpy as np                                  # linear algebra
+import numpy as np                           
+                                                    # linear algebra
 import pandas as pd                                 # data procssing, CSV file I/O (e.g. pd.read_csv),for data manipulation 
 import matplotlib.pyplot as plt                     # this is used for the plot the graph 
 import seaborn as sns                               # used for plot interactive graph. 
@@ -39,22 +40,23 @@ import seaborn as sns                               # used for plot interactive 
 
 4.  Calculate power consumed in by week/month
 
-    Calculate Global_active_power consumed in by Month
+    * Calculate Global_active_power consumed in by Month
  
 
 6. Calculate power consumed by each sub=meter by week/month
     
-     Calculate the power of Sub_metering_1 consumed in by Month
-     Calculate the power of Sub_metering_2 consumed in by Month
-     Calculate the power of Sub_metering_3 consumed in by Month
+    * Calculate the power of Sub_metering_1 consumed in by Month
+    * Calculate the power of Sub_metering_2 consumed in by Month
+    * Calculate the power of Sub_metering_3 consumed in by Month
 
 7.   Data Visualization using Plot
      
-     Global_active_power resampled over day for sum
-     Sub_metering_1,Sub_metering_2,Sub_metering_3 resampled over day for sum
+     * Global_active_power resampled over day for sum
+     * Sub_metering_1,Sub_metering_2,Sub_metering_3 resampled over day for sum
      
      
   file includes following four files:
+  
   *code file   : 1) household_power_consumption.ipynb
                 
   * text file  : 2)README.md
